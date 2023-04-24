@@ -1,0 +1,25 @@
+/*how to display the map:*/
+.map-container {
+    height: 650px;
+}
+
+/*show lat/long poosition in a 'sidebar' at the top of the map:*/
+.sidebar {
+    background-color: rgba(230, 126, 34, 0.6);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: Montserrat;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 12px;
+    border-radius: 4px;
+}
+
+/*bakc the web app background black cuz its pretty:*/
+body {
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
